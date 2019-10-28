@@ -32,6 +32,6 @@ return result
 }
 
 
-function reduceToTotal(sourceArray, startingPoint){
+function reduceToTotal(sourceArray, startingPoint=0){
   
 }
