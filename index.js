@@ -1,6 +1,8 @@
 // Your code here
 function mapToNegativize(sourceArray){
-  sourceArray.map(myFunction(num) {
-  return num * 10;})
+
+for (let i = 0; i<sourceArray.length; i++){
+  sourceArray[i]*-1
+}
 }
 
