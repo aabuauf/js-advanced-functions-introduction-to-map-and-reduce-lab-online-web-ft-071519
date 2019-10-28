@@ -40,3 +40,7 @@ for (let i = 0; i<sourceArray.length; i++){
 }
 return sum
 }
+
+function reduceToAllTrue(sourceArray){
+  
+}
