@@ -7,3 +7,6 @@ for (let i = 0; i<sourceArray.length; i++){
 return result
 }
 
+function mapToNoChange(sourceArray){
+  
+}
