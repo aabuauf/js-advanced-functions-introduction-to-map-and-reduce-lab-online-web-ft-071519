@@ -23,7 +23,7 @@ for (let i = 0; i<sourceArray.length; i++){
 return result 
 }
 
-function mapToDouble(sourceArray){
+function mapToSquare(sourceArray){
    let result = []
 for (let i = 0; i<sourceArray.length; i++){
   result[i]=sourceArray[i]**2
