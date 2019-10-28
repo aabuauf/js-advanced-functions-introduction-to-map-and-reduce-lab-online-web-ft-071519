@@ -38,4 +38,5 @@ let sum = 0
 for (let i = 0; i<sourceArray.length; i++){
   sum = sum + sourceArray[i]
 }
+return sum
 }
