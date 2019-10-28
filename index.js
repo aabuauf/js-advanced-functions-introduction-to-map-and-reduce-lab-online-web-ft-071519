@@ -22,3 +22,11 @@ for (let i = 0; i<sourceArray.length; i++){
 }
 return result 
 }
+
+function mapToDouble(sourceArray){
+   let result = []
+for (let i = 0; i<sourceArray.length; i++){
+  result[i]=sourceArray[i]**2
+}
+return result 
+}
