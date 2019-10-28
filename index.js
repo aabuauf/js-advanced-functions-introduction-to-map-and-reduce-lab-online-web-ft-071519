@@ -42,5 +42,11 @@ return sum
 }
 
 function reduceToAllTrue(sourceArray){
-  
+  let result = true
+for (let i = 0; i<sourceArray.length; i++){
+  if (!sourceArray[i]){
+    result = false
+  }
+}
+return result
 }
