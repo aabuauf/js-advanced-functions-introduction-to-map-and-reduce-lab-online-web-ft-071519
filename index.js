@@ -34,7 +34,7 @@ return result
 
 
 function reduceToTotal(sourceArray, startingPoint=0){
-let sum = 0
+let sum = startingPoint
 for (let i = 0; i<sourceArray.length; i++){
   sum = sum + sourceArray[i]
 }
